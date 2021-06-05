@@ -1,5 +1,5 @@
 # Front_End_Clone_2
-# Portfolio
+### Portfolio
  Portfolio using HTML and CSS. Inspired by Sean Halpin.
-
- Refer to Github Page in about section.
+ <br />
+ **Refer to Github Page link in about section**.
