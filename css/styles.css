@@ -325,5 +325,6 @@ a:hover {
 
   .footer-link{
     display: block;
+    margin: 10px 60px;
   }
 }
