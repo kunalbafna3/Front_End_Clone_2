@@ -30,7 +30,7 @@ p {
 }
 
 hr {
-  border: dotted #EAF6F6 6px;
+  border: dotted #11999E 6px;
   border-bottom: none;
   width: 4%;
   margin: 100px auto;
@@ -64,8 +64,10 @@ a:hover {
 
 .skill-row {
   width: 50%;
-  margin: 100px auto;
-  text-align: left;
+  margin: 70px auto;
+  text-align: center;
+  display: flex;
+  gap: 10px;
 }
 
 .intro {
@@ -110,11 +112,11 @@ a:hover {
 
 .btn {
   background: #11cdd4;
-  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
-  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
-  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
-  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
-  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
   -webkit-border-radius: 8;
   -moz-border-radius: 8;
   border-radius: 8px;
@@ -123,6 +125,7 @@ a:hover {
   font-size: 20px;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
+  box-shadow: 2px 3px 3px 0 #000000;;
 }
 
 .btn:hover {
@@ -133,4 +136,194 @@ a:hover {
   background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
   background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
   text-decoration: none;
+  box-shadow: none;
+}
+
+.footer-link{
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  color: #fff;
+  background-color:#11999E;
+  box-shadow: 2px 2px rgb(36, 34, 34);
+}
+
+.parPad{
+  margin: 0 30% !important;
+}
+
+.qMark{
+  color: #66BFBF;
+  font-size: 3.5rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+}
+
+.hedd{
+  color: rgb(15, 14, 14);
+}
+
+
+@media screen and (max-width: 768px) {
+  h1 {
+    color: #66BFBF;
+    font-size: 3rem;
+    margin: 40px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+  }
+  
+  h2 {
+    color: #66BFBF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.3rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+  }
+
+  .mountain{
+    width: 70%;
+  }
+  .top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 40px;
+  }
+  
+  .bottom-cloud {
+    position: absolute;
+    left: 100px;
+    bottom: 200px;
+    width: 15%;
+  }
+
+  .imgSizze{
+    width:30%;
+  }
+
+  .intro {
+    width: 50%;
+    margin: auto;
+  }
+
+  .parPad{
+    margin: 0 15% !important;
+    line-height: 1.5;
+  }
+
+  .skill-row{
+    display: flex;
+  }
+
+}
+
+@media screen and (max-width: 415px) {
+  h1 {
+    color: #66BFBF;
+    font-size: 3rem;
+    margin: 40px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+  }
+  
+  h2 {
+    color: #66BFBF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.3rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+  }
+
+  .mountain{
+    width: 70%;
+  }
+  .top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 40px;
+  }
+  
+  .bottom-cloud {
+    position: absolute;
+    left: 250px;
+    bottom: 300px;
+    width: 15%;
+  }
+
+  .imgSizze{
+    width:30%;
+  }
+
+  .intro {
+    width: 50%;
+    margin: auto;
+  }
+
+  .parPad{
+    margin: 0 15% !important;
+    line-height: 1.5;
+  }
+
+  .skill-row{
+    display: flex;
+  }
+
+}
+
+@media screen and (max-width: 375px) {
+  h1 {
+    color: #66BFBF;
+    font-size: 3rem;
+    margin: 40px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+  }
+  
+  h2 {
+    color: #66BFBF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.3rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+  }
+
+  .mountain{
+    width: 70%;
+  }
+  .top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 40px;
+  }
+  
+  .bottom-cloud {
+    position: absolute;
+    left: 250px;
+    bottom: 300px;
+    width: 15%;
+  }
+
+  .imgSizze{
+    width:30%;
+  }
+
+  .intro {
+    width: 50%;
+    margin: auto;
+  }
+
+  .parPad{
+    margin: 0 15% !important;
+    line-height: 1.5;
+  }
+
+  .skill-row{
+    display: flex;
+  }
+
+  .footer-link{
+    display: block;
+  }
 }
